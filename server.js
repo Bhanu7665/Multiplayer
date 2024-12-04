@@ -68,7 +68,7 @@ io.on('connection', (socket) => {
         io.emit('gameReset');
     });
 
-    no
+
     // Check if there's a winner
     function checkWinner() {
         const winningCombinations = [
